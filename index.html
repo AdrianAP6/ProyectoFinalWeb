@@ -1,1 +1,156 @@
-<h1>pagina<h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daniel Muñoz | Civil Engineer</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:wght@400;700&display=swap">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="welcome-screen">
+    <h1 class="welcome-text">"Structural Elegance Through Minimalism"</h1>
+  </div>
+
+  <header>
+    <nav class="menu">
+      <a href="#about">About</a>
+      <a href="#expertise">Expertise</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" class="section">
+      <div class="grid-container">
+        <div class="profile-content">
+          <h1>Daniel Muñoz</h1>
+          <h2>Civil Engineer | Modern & Minimalist Construction Specialist</h2>
+          <p>Innovative civil engineer with 4 years of experience in residential and commercial projects, specializing in elegant, minimalist designs that merge functionality with contemporary aesthetics. Passionate about sustainable materials and clean architectural lines.</p>
+        </div>
+        <div class="profile-image">
+          <img src="assets/images/profile.jpg" alt="Daniel Muñoz" />
+        </div>
+      </div>
+    </section>
+
+    <div class="section-spacer"></div>
+
+    <section id="expertise" class="section dark-bg">
+      <div class="grid-container">
+        <h2>Core Expertise</h2>
+        <div class="expertise-grid">
+          <div class="expertise-card">
+            <h3>Modern Construction</h3>
+            <p>Advanced techniques for contemporary structures with clean lines and open spaces.</p>
+          </div>
+          <div class="expertise-card">
+            <h3>3D Modeling</h3>
+            <p>Autodesk Revit, SketchUp Pro for precise modular system design.</p>
+          </div>
+          <div class="expertise-card">
+            <h3>Sustainable Materials</h3>
+            <p>Cross-laminated timber, polished concrete, and eco-friendly alternatives.</p>
+          </div>
+          <div class="expertise-card">
+            <h3>Minimalist Design</h3>
+            <p>Japanese and Scandinavian influences for functional elegance.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-spacer"></div>
+
+    <section id="portfolio" class="section">
+      <div class="grid-container">
+        <h2>Selected Projects</h2>
+        <div class="portfolio-grid">
+          <div class="project">
+            <img src="assets/images/project1.jpg" alt="Structural Analysis" />
+            <div class="project-info">
+              <h3>Structural Integrity Analysis</h3>
+              <p>Comprehensive baseline analysis of internal structural integrity for high-rise residential complex.</p>
+              <a href="#" class="project-link">View Case Study →</a>
+            </div>
+          </div>
+          <div class="project">
+            <img src="assets/images/project2.jpg" alt="Bridge Design" />
+            <div class="project-info">
+              <h3>Lateral Bridge Support</h3>
+              <p>Innovative testing of classical support systems in 3D environments for earthquake resilience.</p>
+              <a href="#" class="project-link">View Case Study →</a>
+            </div>
+          </div>
+          <div class="project">
+            <img src="assets/images/project3.jpg" alt="Modular System" />
+            <div class="project-info">
+              <h3>Modular Weight Joint System</h3>
+              <p>Patented modular system designed for optimal load distribution in minimalist structures.</p>
+              <a href="#" class="project-link">View Case Study →</a>
+            </div>
+          </div>
+          <div class="project">
+            <img src="assets/images/project4.jpg" alt="Urban Development" />
+            <div class="project-info">
+              <h3>Urban Space Optimization</h3>
+              <p>High-density residential solution maintaining open sightlines and natural light penetration.</p>
+              <a href="#" class="project-link">View Case Study →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-spacer"></div>
+
+    <section id="contact" class="section dark-bg">
+      <div class="grid-container">
+        <h2>Get In Touch</h2>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3>Contact Information</h3>
+            <p><strong>Email:</strong> daniel.munoz@engineering.com</p>
+            <p><strong>Phone:</strong> (915) 555-0123</p>
+            <p><strong>Location:</strong> El Paso, Texas</p>
+            <div class="social-links">
+              <a href="#">LinkedIn</a>
+              <a href="#">Behance</a>
+              <a href="#">ResearchGate</a>
+            </div>
+          </div>
+          <form class="contact-form">
+            <div class="form-group">
+              <input type="text" placeholder="Your Name" required />
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Your Email" required />
+            </div>
+            <div class="form-group">
+              <select required>
+                <option value="" disabled selected>Project Type</option>
+                <option>Residential</option>
+                <option>Commercial</option>
+                <option>Consultation</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <textarea placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="current-year"></span> Daniel Muñoz Civil Engineering. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
